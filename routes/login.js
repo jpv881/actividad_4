@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     res.render('login', {
         title: 'Agencia Viajes',
-        layout: 'layout'
+        layout: 'layoutSinFooter'
     });
 });
 
